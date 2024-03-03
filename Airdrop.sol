@@ -3,7 +3,7 @@ pragma solidity 0.8.20;
 
 contract Airdrop {
 
-    mapping(uint => address) beneficiary;
+    mapping(uint => address) public beneficiary;
 
     event Claimed(uint256 indexed blockNumber, address indexed  beneficiary);
 
