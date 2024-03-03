@@ -8,7 +8,7 @@ This repository demonstrates a simple frontrun bot using ethers (V6). The purpos
 - Copy `.env.example` to `.env`
 - Fill in the following variables in the `.env` file:
     - PRIVATE_KEY="bot-private-key"
-    - RPC_URL="rpc-url"
+    - RPC_URL="wss-rpc-url"
     - CONTRACT_ADDRESS="airdrop-smart-contract-address"
 
 Note: the existing contract address is deployed on Sepolia. You can just use it without deploying a new one.
